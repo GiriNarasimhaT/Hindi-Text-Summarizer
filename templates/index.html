@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <link href="../static/index.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="primary-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light" id="navigation">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/" id="logo">Extractive Hindi Text Summarizer</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <div class="navbar-nav nav-fill w-100" id="links">
+
+                            <a class="nav-link" aria-current="page" href="#" id="activeBtn">Home</a>
+
+
+                            <a class="nav-link" href="/project">Project</a>
+
+
+                            <a class="nav-link" href="/about">About</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="intro">Text Summarization is a process of
+            reducing the content of a lengthy article or a text
+            document in such a way that the exact meaning that
+            the document wants to convey, is not lost. Many
+            improvements have been made in the field of text
+            summarization for English, which is the most
+            spoken language in the world. But the demand for
+            text summarization methods for local or native
+            languages is increasing in recent times. Compared to
+            English, researchers face various challenges while
+            implementing a text summarization system for
+            Indian languages, because of the diversity and
+            linguistically rich texts. We chose to implement an
+            Automatic Text Summarization (ATS) system for
+            Hindi language as it is the second most spoken
+            language in India and third most spoken language in
+            the world. There are very few advancements when it
+            comes to an efficient text summarization system for
+            this language.
+
+            <br>
+            <br>
+
+            As an enormous amount of text data is available on
+            the internet, it has become a difficult task to grasp
+            important information out of it. The difficulty
+            becomes more in the case of local or native
+            languages. In such cases, an Automatic Text
+            Summarization (ATS) system is of great help. Text
+            summarization is a process of compressing an actual
+            text article or document by eliminating redundant
+            information or sentences from articles and only
+            keeping those sentences which are actually of great
+            help. This ensures that the reader does not get bored
+            while looking at the size of the articles, and at the
+            same time, the reader also gets the information that
+            he/she is looking for, without the need for reading
+            the whole passage.
+            <br><br>In general, text summarization is
+            done using three approaches:<br>
+            &emsp; (i) Numerical based
+                approach<br>&emsp; (ii) Linguistic based approach<br>&emsp; (iii) Hybrid
+                approach.<br><br>
+
+                &emsp; &emsp; Numerical approach involves assigning
+                numerical scores to the sentences in a passage, on
+                the basis of their importance. The sentences with
+                highest scores will be kept in the summary, whereas
+                the sentences with least scores will not be included,
+                considering it to be of no use. Linguistic approach
+                involves generation of summaries by linguists, who
+                are considered to be experts in a particular language.
+                Hybrid approach is a combination of numerical
+                based approach and linguistic based approach.
+                <br><br>
+                Text summarization systems are basically of two types:<br>
+                &emsp; (i) Extractive Summarization<br>&emsp; (ii) Abstractive
+                Summarization<br><br> Extractive summarization involves
+                extracting important sentences from the article and
+                concatenating them without giving importance to
+                understanding the meaning of them. On the other
+                hand, Abstractive summarization involves
+                generating a meaningful summary. Instead of just
+                picking sentences from original texts, abstractive
+                systems rewrite the sentences whenever necessary.
+                In case of Indian languages, abstractive
+                summarization is not effective as Indian languages
+                are linguistically rich in nature unlike English
+                language. Hence, generation of new words and
+                placing them in a proper position in a sentence is a
+                difficult task in case of Abstractive summarization
+                of Indian languages. Hence we go for the Extractive
+                way of summarization.
+        </p>
+    </div>
+
+    <footer>
+        <br><br><br>    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+
+</html>

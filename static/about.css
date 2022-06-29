@@ -1,0 +1,88 @@
+* {
+    font-family: 'Poppins', Arial;
+}
+
+body {
+    width: 100%;
+    background: #05192d;
+    height: 100vh;
+}
+
+.navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='green' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: #03EF62;
+}
+
+.navbar-light button.navbar-toggler {
+    border-color: #03EF62;
+}
+
+
+#logo {
+    font-size: 22px;
+    margin-right: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#logo:hover {
+    color: #03EF62;
+}
+
+body #links {
+    float: right;
+}
+
+body #links a {
+
+    position: relative;
+    display: inline-block;
+    margin: 10px 30px;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    /* background: #FFFFFF; */
+    border: 2px solid #03EF62;
+    font-size: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+body #links a:hover {
+    color: #000000;
+    background: #03EF62;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+
+#name {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#role, #details {
+    color: #03EF62;
+}
+
+body #links #activeBtn {
+    font-weight: bold;
+    color: #000000;
+    background: #03EF62;
+    border: 2px solid #000000;
+}
+
+#project {
+    color: #FFFFFF;
+    margin-top: 10%;
+}
+
+#projectInfo {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#mute {
+    color: #FFFFFF;
+}

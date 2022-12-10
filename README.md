@@ -1,3 +1,3 @@
 # Hindi Text Summarizer
 
-https://hindi-text-summarizer.herokuapp.com/
+https://web-production-a438.up.railway.app/
